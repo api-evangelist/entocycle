@@ -1,7 +1,29 @@
 aid: entocycle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/entocycle.png
 name: Entocycle
-description: Entocycle is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Entocycle is a London-based insect farming technology company building
+  industrial-scale, controlled-environment facilities that use black soldier fly
+  bioconversion to turn organic waste streams into insect protein for animal feed
+  and organic fertilizer (frass). Its platform combines modular climate-controlled
+  farm infrastructure, real-time AI-driven insect monitoring that counts and tracks
+  insects across their lifecycle, and fully automated production systems to
+  standardize output across deployments worldwide. Entocycle partners with waste
+  management companies, agricultural producers, insect companies, and offtake
+  buyers to develop and operate circular-economy insect farms. It was surfaced as a
+  portfolio company of DCVC and added to the API Evangelist network; the company
+  publishes no public API, developer portal, or SDKs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/entocycle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Insect Farming
+- AgTech
+- Sustainability
+- Circular Economy
+- Animal Feed
+- Bioconversion
+- Waste Management
 apis: []
+common:
+- type: Website
+  url: https://www.entocycle.com
+- type: Blog
+  url: https://www.entocycle.com/news
+- type: GitHubOrganization
+  url: https://github.com/entocycle
+- type: PrivacyPolicy
+  url: https://www.entocycle.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
